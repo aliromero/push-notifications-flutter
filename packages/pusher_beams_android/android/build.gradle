@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 android {
 
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.pusher.pusher_beams'
+        namespace 'com.pusher.pusher_beams_android'
     }
 
     compileSdkVersion 31
