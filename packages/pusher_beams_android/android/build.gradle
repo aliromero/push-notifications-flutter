@@ -20,13 +20,7 @@ rootProject.allprojects {
         mavenCentral()
     }
 }
-subprojects{
-    afterEvaluate {
-        android {
-            namespace 'com.pusher.pusher_beams'
-        }
-    }
-}
+
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
